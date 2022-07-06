@@ -1,0 +1,15 @@
+export const ExperienceObj = {
+    id: "experience",
+    details1: "Jun 2019 - Apr 2020",
+    companyName1: "At Home",
+    heading1: "Web Designer",
+    description1: "I started learning programming at home with educational videos. I watched a website design course on the Rocket site, which included website design in Photoshop and then website design using Photoshop files. After that, I watched a bootstrap course on the same website and received the certificate for that course. During this period, we designed several mini-projects and two large projects. After that, I stopped programming for a year and a half due to some problems and only designed several login forms.Also, I watched a training course of Sass and designed a mini-project with it. I am also fluent in Flex.",
+    details2: "May 2021 - May 2022",
+    companyName2: "At Home",
+    heading2: "Js Developer",
+    description2: "From the spring of 2021, I started programming again in a serious way along with the JavaScript monster course on the Megajs website. In this course, we designed several mini projects and several big projects. After that, I started designing the Fidibo and Snap Food websites that they are not complete.",
+    details3: "May 2022 - Present",
+    companyName3: "At Home",
+    heading3: "React Developer",
+    description3: "I got acquainted with the React course on the MegaJS website and I have been training for two months. This course includes several mini-projects and large projects. This resume project is one of the exercises of this course.",
+}
