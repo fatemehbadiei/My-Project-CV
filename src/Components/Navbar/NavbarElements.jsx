@@ -125,3 +125,50 @@ export const NavLink = styled(LinkS)`
     border-radius: 5px;
   }
 `
+
+
+export const NavLink1 = styled(LinkR)`
+  text-transform: uppercase;
+  font-size: .814rem;
+  padding: 0.5rem 0.7rem;
+  line-height: 1.625rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    transition: all .3s ease-in-out;
+    background-color: #6c63ff;
+    border-radius: 5px;
+  }
+
+  &.active {
+    background-color: #6c63ff;
+    border-radius: 5px;
+  }
+`
+
+export const NavBtn = styled.div`
+ 
+`
+
+export const Button = styled(LinkR)`
+  background-color: #6c63ff;
+  font-weight: 400;
+  font-size: .814rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+  outline: none;
+  transition: all .2s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1.625rem;
+
+  &:hover{
+    transition: all .2s ease-in-out;
+    background: #5a53c3;
+  }
+`

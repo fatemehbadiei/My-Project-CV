@@ -25,7 +25,7 @@ import {
     ContactBodyH5,
     ContactBodyP
 } from "./ContactElement";
-import Background from "../../Images/footer3.jpg"
+import Background from "../../Images/footer31.png"
 import AOS from "aos";
 
 const ContactSection = () => {
@@ -34,6 +34,7 @@ const ContactSection = () => {
         AOS.init({
             duration: 500,
         });
+        window.addEventListener('load', AOS.refresh());
     }, []);
 
     const handleSubmit = (event) => {

@@ -148,7 +148,7 @@ export const PortfolioTabCol1 = styled.div`
 
 export const PortfolioTabCol2 = styled.div`
   display: flex;
-
+  
   @media screen and (max-width: 768px){
     flex-direction: column;
   }
@@ -171,7 +171,6 @@ export const PortfolioTabLink = styled.a`
   display: inline-block;
   margin-bottom: 1rem;
   transition: all .4s ease-in-out;
-  height: 353px;
   
 
   &:hover{
@@ -191,8 +190,8 @@ export const PortfolioTabLink = styled.a`
 `
 
 export const PortFolioTabImg = styled.img`
-  max-width: 100%;
-  width: 540px;
+  width: 100%;
+  max-width: 540px;
   height: 100%;
   max-height: 353px;
   transition: all .4s ease-in-out;

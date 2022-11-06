@@ -186,6 +186,7 @@ export const ContactFormInput = styled.input`
   display: flex;
   align-items: center;
   outline: none;
+  background-image: none !important;
   
 `
 

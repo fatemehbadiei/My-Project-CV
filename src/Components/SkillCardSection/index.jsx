@@ -41,7 +41,9 @@ const SkillCardSection = () => {
         AOS.init({
             duration: 1200,
         });
+        window.addEventListener('load', AOS.refresh());
     }, []);
+
 
     return (
         <SkillCardContainer id="skills">
@@ -78,7 +80,7 @@ const SkillCardSection = () => {
                                 <SkillLangContainer>
                                     <SkillCardDiv>
                                         <SkillCardSpan>JavaScript</SkillCardSpan>
-                                        <SkillCardSpan>70%</SkillCardSpan>
+                                        <SkillCardSpan>80%</SkillCardSpan>
                                     </SkillCardDiv>
                                     <SkillCardDivProgress>
                                         <SkillCardProgress3 scrollNav={scrollNav}></SkillCardProgress3>
@@ -113,7 +115,7 @@ const SkillCardSection = () => {
                                 <SkillLangContainer>
                                     <SkillCardDiv>
                                         <SkillCardSpan>React</SkillCardSpan>
-                                        <SkillCardSpan>30%</SkillCardSpan>
+                                        <SkillCardSpan>70%</SkillCardSpan>
                                     </SkillCardDiv>
                                     <SkillCardDivProgress>
                                         <SkillCardProgress6 scrollNav={scrollNav}></SkillCardProgress6>

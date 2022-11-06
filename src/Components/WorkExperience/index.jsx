@@ -36,7 +36,9 @@ const WorkExperience = ({
         AOS.init({
             duration: 500
         });
+        window.addEventListener('load', AOS.refresh());
     }, []);
+
 
     return (
         <WorkContainer id={id}>

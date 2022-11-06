@@ -131,7 +131,7 @@ export const SkillCardProgress2 = styled.div`
 export const SkillCardProgress3 = styled.div`
   position: absolute;
   background: #6c63ff;
-  width: 70%;
+  width: 80%;
   height: 5px;
   transform: ${({scrollNav}) => (scrollNav) ? "scaleX(1)" : "scaleX(0)"};
   transition: transform 2s ease-in-out;
@@ -165,7 +165,7 @@ export const SkillCardProgress5 = styled.div`
 export const SkillCardProgress6 = styled.div`
   position: absolute;
   background: #6c63ff;
-  width: 30%;
+  width: 70%;
   height: 5px;
   transform: ${({scrollNav}) => (scrollNav) ? "scaleX(1)" : "scaleX(0)"};
   transition: transform 2s ease-in-out;

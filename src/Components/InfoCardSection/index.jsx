@@ -19,9 +19,11 @@ const InfoCardSection = () => {
 
     useEffect(() => {
         AOS.init({
-            duration: 1200,
+            duration: 500,
         });
+        window.addEventListener('load', AOS.refresh());
     }, []);
+
 
     return (
         <InfoCardContainer id="about">

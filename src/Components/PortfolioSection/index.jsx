@@ -41,7 +41,7 @@ import Image10 from "../../Images/image10.png";
 import Image11 from "../../Images/image11.png";
 import Image12 from "../../Images/image12.png";
 import AOS from "aos";
-
+// window.AOS = AOS;
 
 
 const PortfolioSection = () => {
@@ -68,6 +68,7 @@ const PortfolioSection = () => {
         AOS.init({
             duration: 500
         });
+        window.addEventListener('load', AOS.refresh());
     }, []);
 
 

@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from "react";
-import {Nav,NavContainer,NavHeader,NavLogo,MobileIcon,MenuIcon,CloseIcon,NavMenu,NavItem,NavLink} from "./NavbarElements";
+import {Nav,NavContainer,NavHeader,NavLogo,MobileIcon,MenuIcon,CloseIcon,NavMenu,NavItem,NavLink,NavLink1,Button} from "./NavbarElements";
 import {animateScroll as scroll} from "react-scroll";
 
 const Navbar = ({toggle,isOpen}) => {
@@ -49,6 +49,12 @@ const Navbar = ({toggle,isOpen}) => {
                     </NavItem>
                     <NavItem>
                         <NavLink to="contact" smooth={true} duration={500} spy={true} offset={-80}>Contact</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink1 to="blog">Blog</NavLink1>
+                    </NavItem>
+                    <NavItem>
+                        <Button to="signin">Signin</Button>
                     </NavItem>
                 </NavMenu>
             </NavContainer>

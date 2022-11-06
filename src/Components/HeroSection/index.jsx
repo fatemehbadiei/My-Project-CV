@@ -12,8 +12,8 @@ import {
     Button
 } from "./HeroElements";
 
-import Image from "../../Images/pexels-reagan-787642.jpg";
-import Profile from "../../Images/20220329_170333.jpg";
+import Image from "../../Images/hero1.png";
+import Profile from "../../Images/me1.jpg";
 
 const HeroSection = () => {
     return (

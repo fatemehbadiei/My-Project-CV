@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {Link as LinkS} from "react-scroll";
+import {Link as LinkR} from "react-router-dom";
 
 export const SidebarContainer = styled.div`
   position: fixed;
@@ -36,6 +37,23 @@ export const SidebarLink = styled(LinkS)`
   padding: 0.5rem 0.7rem;
   line-height: 1.625rem;
   cursor: pointer;
+  
+  &:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+`
+
+
+export const SidebarLinkR = styled(LinkR)`
+  text-transform: uppercase;
+  margin: .312rem 1rem 0 ;
+  font-size: .814rem;
+  padding: 0.5rem 0.7rem;
+  line-height: 1.625rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
   
   &:hover{
     background-color: rgba(255, 255, 255, 0.2);
